@@ -6,7 +6,7 @@
 // $soft-background-color: #fbfbfb !default;
 $soft-background-color: #ffffff !default; // Testing
 $font-color:            #67748e !default;
-$h-color:               #344767 !default;
+$h-color:               #004b85 !default;
 
 // Color system
 
@@ -53,11 +53,11 @@ $colors: (
 ) !default;
 // scss-docs-end colors-map
 
-$primary:       #f53939 !default;
+$primary:       #004b85 !default;
 $secondary:     #8392AB !default;
 $info:          #17c1e8 !default;
 $success:       #82d616 !default;
-$warning:       #fbcf33 !default;
+$warning:       #000000 !default;
 $danger:        #ea0606 !default;
 $light:         $gray-200 !default;
 $dark:          $h-color !default;
@@ -78,14 +78,14 @@ $theme-colors: (
 
 
 // Gradient colors
-$primary-gradient:            #f53939 !default;
-$primary-gradient-state:      #fbcf33 !default;
+$primary-gradient:            #004b85 !default;
+$primary-gradient-state:      #000000 !default;
 
 $secondary-gradient:          #627594 !default;
 $secondary-gradient-state:    #A8B8D8 !default;
 
-$info-gradient:               #2152ff !default;
-$info-gradient-state:         #21d4fd !default;
+$info-gradient:               #004b85 !default;
+$info-gradient-state:         #000000 !default;
 
 $success-gradient:            #17ad37 !default;
 $success-gradient-state:      #98ec2d !default;
@@ -93,11 +93,11 @@ $success-gradient-state:      #98ec2d !default;
 $danger-gradient:             #ea0606 !default;
 $danger-gradient-state:       #ff667c !default;
 
-$warning-gradient:            #f53939 !default;
-$warning-gradient-state:      #fbcf33 !default;
+$warning-gradient:            #004b85 !default;
+$warning-gradient-state:      #000000 !default;
 
 $dark-gradient:               #141727 !default;
-$dark-gradient-state:         #3A416F !default;
+$dark-gradient-state:         #003366 !default;
 
 $light-gradient:              #CED4DA !default;
 $light-gradient-state:        #EBEFF4 !default;
@@ -529,7 +529,7 @@ $headings-font-family:        null !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        400 !default;
 $headings-line-height:        1.2 !default;
-$headings-color:              #344767 !default;
+$headings-color:              #004b85 !default;
 
 // scss-docs-start display-headings
 $display-font-sizes: (
@@ -561,11 +561,11 @@ $text-gradient-text-fill:     transparent !default;
 $text-gradient-position:      relative !default;
 $text-gradient-zindex:        1 !default;
 $text-gradient-bg-primary:    linear-gradient(310deg, #7928CA, #FF0080) !default;
-$text-gradient-bg-info:       linear-gradient(310deg, #2152FF, #21D4FD) !default;
+$text-gradient-bg-info:       linear-gradient(310deg, #004b85, #000000) !default;
 $text-gradient-bg-success:    linear-gradient(310deg, #17AD37, #C1E823) !default;
-$text-gradient-bg-warning:    linear-gradient(310deg, #F53939, #FBCF33) !default;
+$text-gradient-bg-warning:    linear-gradient(310deg, #004b85, #000000) !default;
 $text-gradient-bg-danger:     linear-gradient(310deg, #D60808, #FF6690) !default;
-$text-gradient-bg-dark:     linear-gradient(310deg, #141727, #3A416F) !default;
+$text-gradient-bg-dark:     linear-gradient(310deg, #141727, #003366) !default;
 
 $initialism-font-size:        $small-font-size !default;
 
@@ -783,7 +783,7 @@ $btn-info-font-color:         #fff !default;
 $btn-success-font-color:      #fff !default;
 $btn-warning-font-color:      #fff !default;
 $btn-dark-font-color:         #fff !default;
-$btn-light-font-color:        #3A416F !default;
+$btn-light-font-color:        #003366 !default;
 
 $btn-font-colors: () !default;
 
@@ -836,7 +836,7 @@ $input-disabled-bg:                     $gray-200 !default;
 $input-disabled-border-color:           null !default;
 
 $input-color:                           $gray-700 !default;
-$input-border-color:                    #d2d6da !default;
+$input-border-color:                    #003366 !default;
 $input-border-width:                    $input-btn-border-width !default;
 $input-box-shadow:                      0 1px 2px 0 rgba(0, 0, 0, 0.05) !default;
 
@@ -845,10 +845,10 @@ $input-border-radius-sm:                $border-radius-md !default;
 $input-border-radius-lg:                $border-radius-md !default;
 
 $input-focus-bg:                        $white !default;
-$input-focus-border-color:              #e293d3 !default;
+$input-focus-border-color:              #003366 !default;
 $input-focus-color:                     $input-color !default;
 $input-focus-width:                     2px !default;
-$input-focus-box-shadow:                0 0 0 $input-focus-width #e9aede !default;
+$input-focus-box-shadow:                0 0 0 $input-focus-width #003366 !default;
 
 $input-placeholder-color:               $gray-500 !default;
 $input-plaintext-color:                 $dark !default;

@@ -40,6 +40,14 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'mahasiswa' => [
+            'driver' => 'session',
+            'provider' => 'mahasiswa',
+        ],
+        'dosen' => [
+            'driver' => 'session',
+            'provider' => 'dosen',
+        ],
 
         'api' => [
             'driver' => 'token',
@@ -70,11 +78,14 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
-
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+        'mahasiswa' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\UserMahasiswa::class,
+        ],
+        'dosen' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\UserDosen::class,
+        ]
     ],
 
     /*
@@ -99,6 +110,18 @@ return [
             'expire' => 60,
             'throttle' => 60,
         ],
+        'mahasiswa' => [
+            'provider' => 'mahasiswa',
+            'table' => 'password_resets',
+            'expire' => 60,
+            'throttle' => 60,
+        ],
+        'dosen' => [
+            'provider' => 'dosen',
+            'table' => 'password_resets',
+            'expire' => 60,
+            'throttle' => 60,
+        ],
     ],
 
     /*
@@ -113,5 +136,4 @@ return [
     */
 
     'password_timeout' => 10800,
-
 ];
